@@ -3,7 +3,7 @@ from Cancel.akad.ttypes import *
 from time import sleep
 import time
 
-yinmo = LINE("cancelgroup@yandex.com","NBA2k190")
+yinmo = LINE()
 oepoll = OEPoll(yinmo)
 
 def NOTIFIED_INVITE_INTO_GROUP(op):
