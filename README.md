@@ -5,7 +5,6 @@
 
 *LINE Unofficial Bot* 
 
-```LINE group cancel invite bot```
 ----
 
 ## Usage
