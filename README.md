@@ -3,18 +3,25 @@
 
  [![Supported python versions: 3.x](https://img.shields.io/badge/python-3.x-green.svg "Supported python versions: 3.x")](https://www.python.org/downloads/) 
 
-*LINE Message Unofficial API* [here](https://github.com/yinmo-public/linepy)
+*LINE Unofficial Bot* 
 
+```LINE group cancel invite bot```
 ----
+
+## Usage
+
+```
+>>> yinmo = LINE("token")
+>>> yinmo = LINE("mail","password")
+```
 
 ## Requirement
 
 The linepy module requires Python 3.x  [download](https://www.python.org/downloads/). 
 
-```LINE group cancel invite bot```
 
-## Thanks to 
-[Forked from](https://github.com/rootmelo92118/cancelbot)
+## Forked from
+[here](https://github.com/rootmelo92118/cancelbot)
 
 ## Credits to
 [@author](https://line.me/ti/p/3eamxoks_T)
