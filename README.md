@@ -11,8 +11,7 @@
 
 The linepy module requires Python 3.x  [download](https://www.python.org/downloads/). 
 
-```LINE group cancel invite bot
-```
+```LINE group cancel invite bot```
 
 ## Thanks to 
 [Forked from](https://github.com/rootmelo92118/cancelbot)
