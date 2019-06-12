@@ -17,6 +17,7 @@ def NOTIFIED_INVITE_INTO_GROUP(op):
             group = yinmo.getGroup(op.param1)
             groupinvitingmembersmid = [contact.mid for contact in group.invitee]
             for _mid in groupinvitingmembersmid:
+                time.sleep(0.5)
                 yinmo.cancelGroupInvitation(op.param1, [_mid])
                 time.sleep(0.2)
             yinmo.leaveGroup(op.param1)
